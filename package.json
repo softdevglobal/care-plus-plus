@@ -1,0 +1,33 @@
+{
+  "name": "care-plus-plus",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 127.0.0.1",
+    "demo": "node scripts/operations-demo.mjs",
+    "build": "next build --webpack",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.15",
+    "firebase": "12.13.0",
+    "firebase-admin": "14.3.0",
+    "lucide-react": "^0.577.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "prettier": "^3.9.6",
+    "tsx": "^4.22.3",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "engines": { "node": "24.x" }
+}
